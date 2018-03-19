@@ -1,49 +1,53 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<link href="css/bootstrap.min.css" rel="stylesheet">
-		<link href="css/style.css" rel="stylesheet">
-		<title>Simple Test</title>
-	</head>
-	<!-- !! navbar-expand-md !! -->
-	<body>
-		<nav class="navbar bg-primary navbar-dark navbar-expand-md fixed-top">
-			<a href="#" class="navbar-brand">Simple Test</a>
-			<button type="button" class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbar">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse" id="navbar">
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item">
-						<a class="nav-link" href="#Intro">Intro</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#Tests">Tests</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#Records">Records</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#Porfile">Profile</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#Login" data-toggle="modal" data-target="#modalLogin">Login</a>
-					</li>
-				</ul>
-			</div>
-		</nav>
-		<div id="register-form">
-			<h2 class="display-5">Register</h2>
-			<section id="panel">
-				<form action="/register/" method="POST">
-					<div class="form-group">
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Simple Test</title>
+  </head>
+  <!-- !! navbar-expand-md !! -->
+  <body>
+    <nav class="navbar bg-primary navbar-dark navbar-expand-md fixed-top">
+      <a href="#" class="navbar-brand">Simple Test</a>
+      <button type="button" class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#navbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#Intro">Intro</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Tests">Tests</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Records">Records</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Porfile">Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Login" data-toggle="modal" data-target="#modalLogin">Login</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div id="register-form">
+      <h2 class="display-5">Register</h2>
+      <section id="panel">
+        <form action="/register/" method="POST">
+          <div class="form-group">
             <label for="input-username" class="sr-only">Username:</label>
             <input type="text" class="form-control" id="input-username" name="username" placeholder="Username">
           </div>
           <div class="form-group">
             <label for="input-password" class="sr-only">Password:</label>
             <input type="password" class="form-control" id="input-password" name="password" placeholder="Password">
+          </div>
+          <div class="form-group">
+            <label for="input-password-again" class="sr-only">Password again:</label>
+            <input type="password" class="form-control" id="input-password" name="password_two" placeholder="Password">
           </div>
           <div class="form-check">
             <label class="form-check-label">
@@ -52,18 +56,18 @@
             </label>
           </div>
           <div style="display: block; text-align: right;">
-						<a href="#">blablabla</a>
-					</div>
+            <a href="#">blablabla</a>
+          </div>
           <br>
           <div>
             <button type="submit" class="btn btn-dark" value="register">Register</button>
           </div>
-				</form>
-				<br>
-			</section>
-			<section id="panel">
-				<form action="/register/" method="POST">
-					<div class="form-group">
+        </form>
+        <br>
+      </section>
+      <section id="panel">
+        <form action="/register/" method="POST">
+          <div class="form-group">
             <label for="input-username" class="sr-only">Username:</label>
             <input type="text" class="form-control" id="input-username" name="username" placeholder="Keeped Area">
           </div>
@@ -78,16 +82,16 @@
             </label>
           </div>
           <div style="display: block; text-align: right;">
-						<a href="#">blablabla</a>
-					</div>
+            <a href="#">blablabla</a>
+          </div>
           <br>
-				</form>
-			</section>
-		</div>
+        </form>
+      </section>
+    </div>
 
 
-		<script src="js/jquery-3.2.1.min.js"></script>
-		<script src="js/popper.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-	</body>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
 </html>

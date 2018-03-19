@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<link href="bootstrap.min.css" rel="stylesheet">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<title>Simple Test</title>
 	</head>
 	<!-- !! navbar-expand-md !! -->
@@ -73,8 +73,8 @@
 			</div>
 		</section> 
 
-		<script src="jquery-3.2.1.min.js"></script>
-		<script src="popper.js"></script>
-		<script src="bootstrap.min.js"></script>
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="js/popper.js"></script>
+		<script src="js/bootstrap.min.js"></script>
 	</body>
 </html>
